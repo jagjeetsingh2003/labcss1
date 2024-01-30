@@ -1,0 +1,147 @@
+/** Global Classes **/
+
+/** General Styling **/
+
+/** Complementary **/
+/*
+** Colors:
+** #5B00BF (Main)
+** #65BF00 (Accent)
+** #F8F8F8 (Accent)
+** #0E0E0E (Accent)
+*/
+
+/** Triadic **/
+/*
+** Colors:
+** #FF0052 (Main)
+** #47DD00 (Accent)
+** #0052FF (Accent)
+** #F8F8F8 (Accent)
+** #0E0E0E (Accent)
+*/
+
+/** Monochrome **/
+/*
+** Colors:
+** #0E0E0E (Main)
+** #282828 (Accent)
+** #F8F8F8 (Accent)
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --main-color: #0e0e0e;
+    --accent-color: #282828;
+    --background-accent: #f8f8f8;
+}
+
+header{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img{
+    max-width: 20%;
+    height: auto;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+menu{
+    list-style: none;
+    padding: 0;
+}
+
+menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+menu li a:hover{
+    border-bottom: 2px solid #fff;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+main{
+    padding: 20px;
+}
+
+.masthead{
+    background-color: var(--background-accent);
+    text-align: center;
+    padding: 20px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+h1,h2,h3,h4{
+    color:var(--main-color);
+}
+
+p{
+    color: #555;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn-1{
+    background-color: var(--main-color);
+}
+.btn-2{
+    background-color: var(--accent-color);
+}
+
+
+.g-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.spacer{
+    height: 20px;
+}
+
+.space-primary{
+    height: 10px;
+}
+
+.space-secondary{
+    height: 15px;
+}
+
+
+.fa-swatchbook,
+.fa-circle-half-stroke,
+.fa-paint-roller{
+    font-size: 24px;
+    margin-right: 5px;
+    color: var(--main-color);
+}
